@@ -2,7 +2,7 @@
 ## Steg 1
 Hei og hå!
 
-```template
+```blocks
 controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
     flakseFugl.vy = -100
     animation.runImageAnimation(
