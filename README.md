@@ -1484,7 +1484,7 @@ I Flappy Bird måtte man flakse forsiktig mellom trange rør. Vi skal legge til 
 
 Først må vi lage en **usynlig kanon** som skyter ut hindringer. 
 
-Hent en ny ``||variables: set mySprite to sprite of kind Player||``-blokk og legg den nederst i ``||loops: on start||``.
+Hent en ny ``||sprites: set mySprite to sprite of kind Player||``-blokk og legg den nederst i ``||loops: on start||``.
 
 Endre navn fra ``||variables: mySprite||`` til f.eks. ``||variables:kanon||`` eller ``||variables:usynligKanon||``, og endre typen til ``||sprites:Enemy||``.
 
