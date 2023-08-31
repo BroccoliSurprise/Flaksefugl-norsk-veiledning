@@ -1,6 +1,6 @@
 {
     "name": "flaksefugl-norsk-veiledning",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "",
     "dependencies": {
         "device": "*"
