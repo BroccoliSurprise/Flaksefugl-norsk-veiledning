@@ -14,7 +14,7 @@ Som du ser har vi allerede startet på spillet for dere. Disse to blokkene bør 
 
 ## Flaksefugl 1
 Nå skal vi legge til helten vår, **Flaksefugl**.
-Klikk på ``||sprites: Sprites||``-menyen og finn ``||variables:set mySprite to||``-blokken. Klikk og dra den inn i bunnen av ``||loops:on start||``.
+Klikk på ``||sprites: Sprites||``-menyen og finn ``||sprites:set mySprite to||``-blokken. Klikk og dra den inn i bunnen av ``||loops:on start||``.
 
 Det er lurt å ha gode navn på ting, så hvis du vil kan du trykke på firkanten hvor det står ``||variables: mySprite||``-og så Rename variable for skifte navn på blokken til for eksempel ``||variables:flakseFugl||``.
 
@@ -1695,7 +1695,7 @@ Som du ser har vi allerede startet på spillet for dere. Disse to blokkene bør 
 
 ## Flaksefugl 1
 Nå skal vi legge til helten vår, **Flaksefugl**.
-Klikk på ``||sprites: Sprites||``-menyen og finn ``||variables:set mySprite to||``-blokken. Klikk og dra den inn i bunnen av ``||loops:on start||``.
+Klikk på ``||sprites: Sprites||``-menyen og finn ``||sprites:set mySprite to||``-blokken. Klikk og dra den inn i bunnen av ``||loops:on start||``.
 
 Det er lurt å ha gode navn på ting, så hvis du vil kan du trykke på firkanten hvor det står ``||variables: mySprite||``-og så Rename variable for skifte navn på blokken til for eksempel ``||variables:flakseFugl||``.
 
@@ -3359,7 +3359,6 @@ Du får også tilgang til alle funksjonene i MakeCode Arcade som vi har skjult f
 Hva med å legge til en ekstra spiller? Eller flere nivåer?
 
 ```template
-```blocks
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
