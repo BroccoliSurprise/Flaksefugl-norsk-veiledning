@@ -1149,7 +1149,7 @@ Bytt fra ``||variables: mySprite||`` til det figuren din heter ("flakseFugl")
 
 Klikk på ``||sprites: x||`` og endre til ``||sprites: vy (velocity y)||``, og sett tallet til -100. 
 
-Test spillet og se hva som skjer når du trykker på A-knappen på skjermen (eller Z-knappen på tastaturet). 
+Test spillet og se hva som skjer når du trykker på A-knappen på skjermen (eller SPACE, eller Z-knappen på tastaturet). 
 
 
 ```blocks
