@@ -1422,6 +1422,7 @@ flakseFugl.ay = 300
 
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 	flakseFugl.vy = -100
+	flakseFugl.setPosition(20, 60)
 })
 ```
 
