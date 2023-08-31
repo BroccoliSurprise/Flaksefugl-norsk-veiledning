@@ -1781,7 +1781,7 @@ let usynlig_kanon = sprites.create(img`
 ```
 
 ## Hindringer 2 - prosjektiler
-Finn en ``||variables: set projectile to projectile from mySprite with vx 50 vy 50||``-blokk og sett den inni ``||game: on game update||``-blokken.
+Finn en ``||sprites: set projectile to projectile from mySprite with vx 50 vy 50||``-blokk og sett den inni ``||game: on game update||``-blokken.
 
 Klikk på ``||variables: mySprite||`` til høyre for **from** i denne blokken og bytt navn til det du kalte den usynlige kanonen din.
 
