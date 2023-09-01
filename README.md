@@ -1784,7 +1784,7 @@ let usynlig_kanon = sprites.create(img`
 ## Hindringer 2 - prosjektiler
 Finn en ``||sprites: set projectile to projectile from mySprite with vx 50 vy 50||``-blokk og sett den inni ``||game: on game update||``-blokken.
 
-Klikk på ``||variables: mySprite||`` til høyre for **from** i denne blokken og bytt navn til det du kalte den usynlige kanonen din.
+Klikk på ``||variables: mySprite||`` i denne blokken og bytt navn til det du kalte den usynlige kanonen din.
 
 Så kan du klikke på det tomme grå feltet for å tegne hvordan hindringene skal se ut.
 
@@ -1947,7 +1947,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 ```
 
 ## Hindringer 8 - lettere 2
-Finn en change life by -1 blokk og legg inn under destroy otherSprite-blokken.
+Finn en ``||info: change life by -1||`` blokk og legg inn under destroy otherSprite-blokken.
 
 ```blocks
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
